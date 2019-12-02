@@ -1,0 +1,150 @@
+section.features {
+    margin-bottom: 120px;
+}
+
+.grid-technology {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.grid-technology .grid-item {
+    margin-right: 50px;
+    width: calc(33.333% - 50px);
+}
+
+.grid-technology .grid-item:last-child {
+    margin-right: 0;
+}
+
+.grid-technology svg,
+.grid-tools svg {
+    fill: var(--button-background);
+}
+
+.grid-technology svg {
+    margin-bottom: 20px;
+}
+
+.features-figure {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.features-figure:before,
+.features-figure:after {
+    content: '';
+    position: absolute;
+    background-color: #f2f2f2;
+}
+
+.features-figure:before {
+    height: 90px;
+    width: 2px;
+    right: 44px;
+}
+
+.features-figure:after {
+    width: 90px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+}
+
+.grid-tools {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-tools .grid-item:nth-child(odd) {
+    padding-right: 25px;
+}
+
+.grid-tools .grid-item {
+    width: calc(100% / 2);
+}
+
+.grid-tools .grid-item:nth-child(even) {
+    padding-left: 25px;
+}
+
+.grid-tools .grid-item:nth-child(odd) {
+    padding-right: 25px;
+}
+
+.tools-header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.tools-header h4 {
+    margin: 0 0 0 20px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .grid-technology .grid-item {
+        width: initial;
+        max-width: 400px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .grid-technology .grid-item:last-child {
+        margin: auto;
+        margin-bottom: 0;
+    }
+
+    .features-figure {
+        width: 50px;
+        height: 50px;
+    }
+
+    .features-figure:before {
+        height: 50px;
+        right: 24px;
+    }
+
+    .features-figure:after {
+        width: 50px;
+        bottom: 0;
+        left: 0;
+    }
+
+    .grid-tools .grid-item {
+        width: 100%;
+    }
+
+    .grid-tools .grid-item:nth-child(even),
+    .grid-tools .grid-item:nth-child(odd) {
+        padding: 0;
+    }
+
+    .card-tools {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .tools-header {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .tools-header h4 {
+        margin: 0;
+
+    }
+
+}

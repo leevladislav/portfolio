@@ -1,0 +1,95 @@
+:root {
+  --base-body-background:                          var(--global-background);
+  --base-body-font-family:                         var(--global-font-family);
+  --base-body-font-weight:                         normal;
+  --base-body-font-size:                           var(--global-font-size);
+  --base-body-line-height:                         var(--global-line-height);
+  --base-body-color:                               var(--global-color);
+
+  --base-link-color:                               var(--global-link-color);
+  --base-link-text-decoration:                     none;
+  --base-link-hover-color:                         var(--global-link-hover-color);
+  --base-link-hover-text-decoration:               underline;
+
+  --base-h2-font-size:                             3rem;
+  --base-h4-font-size:                             18px;
+  --base-text-transform:                           uppercase;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: var(--base-body-font-family);
+  font-size: var(--base-body-font-size);
+  font-weight: var(--base-body-font-weight);
+  line-height: var(--base-body-line-height);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  background-color: var(--base-body-background);
+  color: var(--base-body-color);
+}
+
+body {
+  margin: var(--global-margin);
+}
+
+a {
+  color: var(--base-link-color);
+  text-decoration: var(--base-link-text-decoration);
+  cursor: pointer;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:active,
+a:hover {
+  outline: none;
+}
+
+a:hover {
+  color: var(--base-link-hover-color);
+  text-decoration: var(--base-link-hover-text-decoration);
+}
+
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:not([href]):not([tabindex]):hover,
+a:not([href]):not([tabindex]):focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:not([href]):not([tabindex]):focus {
+  outline: 0;
+}
+
+h2, h4 {
+  text-transform: var(--base-text-transform);
+}
+
+h2, .h2 {
+  font-size: var(--base-h2-font-size);
+}
+
+h4, .h4 {
+  font-size: var(--base-h4-font-size);
+  margin: 30px 0px 30px 0px;
+}
+p {
+  margin: var(--global-margin);
+}
+ul {
+  margin: 0;
+}
+li {
+  list-style-type: none;
+}

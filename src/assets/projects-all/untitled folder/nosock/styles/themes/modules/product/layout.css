@@ -1,0 +1,17 @@
+.layout-main-product {
+    display: flex;
+}
+.layout-product-card {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    padding: 0 1em 100px 1em;
+}
+.layout-product-review {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.layout-pattern-review {
+    padding: 34px 34px 0 34px;
+}

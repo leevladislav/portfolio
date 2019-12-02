@@ -1,0 +1,32 @@
+section.contacts {
+    background-color: #3c5499;
+
+    .contacts__layout {
+        padding-bottom: 60px;
+        
+        .layout__item {
+            .item__wrp {
+                margin-bottom: 14px;
+            }
+        }
+
+        .layout__item-row {
+            column-count: 2;
+        }
+
+        .item__action {
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section.contacts {
+    
+        .contacts__layout {
+            .layout__item-row {
+                column-count: 1;
+            }
+        }
+    }
+}

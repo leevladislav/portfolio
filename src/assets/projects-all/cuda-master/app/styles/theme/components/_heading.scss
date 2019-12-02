@@ -1,0 +1,53 @@
+// heading global
+.heading__global {
+    .heading__layout {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        .item__title {
+            position: relative;
+
+            text-transform: uppercase;
+            margin-bottom: 26px;
+            font-weight: bold;
+            &:after {
+                content: "";
+                position: absolute;
+                bottom: -12px;
+                left: 50%;
+                transform: translateX(-50%);
+                display: inline-block;
+                height: 4px;
+                width: 80px;
+                background-color: rgba(184, 170, 170, 0.6);
+            }
+        }
+
+        .item__info {
+            line-height: 1.6;
+        }
+    }
+}
+
+// heading__global-lignt
+.heading__global-lignt {
+    .item__title {
+        color: $global-color;
+    }
+
+    .item__info {
+        color: $global-color;
+    }
+}
+
+// heading__global-dark
+.heading__global-dark {
+    .item__title {
+        color: $global-muted-color;
+    }
+
+    .item__info {
+        color: $global-muted-color;
+    }
+}

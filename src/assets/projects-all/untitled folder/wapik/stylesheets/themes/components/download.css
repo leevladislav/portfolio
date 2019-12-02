@@ -1,0 +1,76 @@
+/*component*/
+.download {
+  background-image: url(../../../img/download-bg.png);
+  background-size: cover;
+  position: relative;
+  height: 200px;
+}
+.download .container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.download-opacity {
+  background-color: rgba(238, 241, 236, 0.95);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.download-description * {
+  margin: 0;
+}
+/*is-inverse*/
+.is-inverse .download-opacity {
+ background-color: rgba(111, 176, 72, 0.8);
+}
+.is-inverse .container .download-layout .download-description h2 {
+ color: #ffffff;
+}
+.is-inverse .container .download-layout .download-description p {
+ color: #ffffff;
+}
+.is-inverse .container .download-layout .download-action a {
+ background-color: #4a732d;
+}
+
+
+
+@media screen and (max-width: 992px) {
+  .download {
+    height: 150px;
+  }
+  .download-layout {
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .download-description {
+    width: 100%;
+    text-align: center;
+ }
+  .download-description h2 {
+    font-size: 24px;
+  }
+  .download-action .button {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+}
+@media screen and (max-width: 992px) { 
+  .download {
+    height: 120px;
+  }
+  .download-description h2 {
+    font-size: 16px;
+  }
+  .download-description p {
+    font-size: 12px;
+  }
+  .download-action .button {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+}

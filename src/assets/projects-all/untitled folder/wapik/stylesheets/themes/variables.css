@@ -1,0 +1,36 @@
+:root {
+  --global-font-family:                            Roboto,-apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+
+  --global-font-size:                              14px;
+  --global-line-height:                            22px;
+
+  --global-font-weight:                            normal;
+  --global-green-color:                            #6fb048;
+  --global-color:                                  #83a7a5;
+  --global-muted-color:                            #0f5f5c;
+
+  --global-link-color:                             #83a7a5;
+  --global-link-hover-color:                       #42a59f;
+
+  --global-inverse-color:                          #fff;
+
+  --global-background:                             #fff;
+
+  --global-muted-background:                       #eef1ec;
+  /*--global-primary-background:                     #1e87f0;
+  --global-secondary-background:                   #222; */
+
+  --global-success-background:                     #32d296;
+  --global-warning-background:                     #faa05a;
+  --global-danger-background:                      #f0506e;
+
+  --global-border-width:                           1px;
+  --global-border:                                 #c1d3d2;
+  --globar-border-radius:                          2px;
+
+  --global-margin:                                 75px;
+
+  /* --global-gutter:                                 30px; */
+
+  --global-control-height:                         42px;
+}

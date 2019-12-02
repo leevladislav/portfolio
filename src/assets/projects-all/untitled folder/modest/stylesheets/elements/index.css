@@ -1,0 +1,182 @@
+/*layout-logo&navbar*/
+.logo h1 {
+  margin: 0;
+}
+.navbar a {
+  padding: 0 14px 0 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: var(--global-muted-color);
+}
+.navbar .is-active {
+  border: 2px solid var(--button-background-hover);
+  border-radius: 5px;
+  padding: 6px 12px;
+  color: var(--button-background-hover);
+}
+.navbar a:hover {
+  border: 2px solid var(--global-muted-color);
+  border-radius: 5px;
+  padding: 6px 12px;
+}
+/*about-us*/
+.about-us-info p {
+  color: var(--global-muted-color);
+  margin-bottom: 1.5em;
+  padding: 0;
+}
+.number-item p {
+  color: var(--global-muted-color);
+  padding: 0;
+  margin-bottom: 1em;
+}
+.number-item h4 {
+  margin: 0 0 5px 0;
+}
+.social a {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  text-decoration: none;
+  background-color: #c8cdd0;
+  padding: 15px;
+}
+.social a:hover {
+  background-color: #d0d5d9;
+  color: var(--button-background-hover);
+}
+.number-item {
+  padding-left: 60px;
+  position: relative;
+}
+.number-box {
+  position: absolute;
+  display: block;
+  background: #23b7a4;
+  height: 50px;
+  width: 50px;
+  left: 0;
+  top: 5px;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+}
+/*our-team*/
+.out-team-item img {
+  width: 260px;
+}
+.description-our-team h4, p {
+  margin: 0;
+  padding: 5px 10px;
+}
+.description-our-team p {
+  color: var(--global-muted-color);
+}
+.our-team-hover a {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  text-decoration: none;
+  background-color: #292f36;
+  padding: 15px;
+}
+.our-team-hover a:hover {
+  background-color: #4e5a62;
+  color: var(--button-background-hover);
+}
+/*our-work*/
+.our-work .heading {
+  color: white;
+}
+.our-work-item img {
+  width: 100%;
+  min-width: 250px;
+}
+.our-work-hover {
+  color: white;
+}
+.icon-plus {
+  position: absolute;
+  top: 100px;
+  left: 175px;
+}
+.bg-dark {
+  background-color: #292f36;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+}
+.bg-dark h4 {
+  margin: 1em;
+}
+.our-work button {
+  align-self: center;
+}
+/*skills*/
+.skills-item span {
+  font-size: 48px;
+  color: #23b7a4;
+}
+.skills-item p {
+  color: var(--global-muted-color);
+  text-align: center;
+}
+/*features*/
+.features .heading {
+  color: white;
+}
+.features-card h4, p {
+  color: white;
+  line-height: 1.5em;
+}
+.features-card img {
+  width: 100%;
+  min-width: 250px;
+  height: 350px;
+}
+/*contacts*/
+.info {
+  margin-bottom: 1em;
+  width: 50%;
+}
+.info p {
+  color: var(--global-muted-color);
+  margin: 0 0 0.5em 0;
+  padding: 10px 10px 10px 0;
+}
+.form {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  background-color: white;
+  padding: 15px;
+}
+fieldset {
+  display: flex;
+}
+.layout-line {
+  display: flex;
+}
+.line-item {
+  margin: 10px;
+}
+fieldset .button {
+  background-color: var(--button-background-active);
+  border: none;
+  margin: 10px;
+}
+/*footer*/
+.footer p {
+  font-size: 14px;
+}
+.footer-social a {
+  text-decoration: none;
+  padding: 1em;
+  color: var(--button-background-hover);
+}
+.footer-social a:not(:hover) {
+  color: white;
+}

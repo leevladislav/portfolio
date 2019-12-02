@@ -1,0 +1,74 @@
+$button-color: #fff;
+$button-background: #42b983;
+$button-font-family: inherit;
+$button-font-size: $main-font-size;
+$button-font-weight: 400;
+$button-padding: 12px 18px;
+$button-height: $control-height;
+
+$button-color-hover: #fff;
+$button-background-hover: lighten($button-background, 10%);
+
+$button-color-focus: #fff;
+$button-background-focus: lighten($button-background, 10%);
+
+$button-color-active: #fff;
+$button-background-active: lighten($button-background, 10%);
+
+button,
+input[type="button"],
+input[type="submit"],
+.button {
+  margin: 0;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  user-select: none;
+  border-radius: 0;
+  overflow: visible;
+  font: inherit;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: $button-padding;
+  font-family: $button-font-family;
+  font-size: $button-font-size;
+  min-height: $button-height;
+  text-decoration: none;
+  background: $button-background;
+  color: $button-color;
+}
+
+.button:not(:disabled) {
+  cursor: pointer;
+}
+
+.button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.button:hover {
+  text-decoration: none;
+  background: $button-background-hover;
+  color: $button-color-hover;
+}
+
+.button:focus {
+  outline: none;
+  background: $button-background-focus;
+  color: $button-color-focus;
+}
+
+.button:active,
+.button.is-active {
+  background: $button-background-active;
+  color: $button-color-active;
+}
+
+.button:disabled {
+  pointer-events: none;
+  opacity: 0.45;
+}

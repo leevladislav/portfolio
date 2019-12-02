@@ -1,0 +1,25 @@
+:root {
+    --global-font-family:                            'phagspa', sans-serif, 'Arial', sans-serif;
+    --global-font-size:                              16px;
+    --global-line-height:                            1;
+
+    --global-color:                                  #000000;
+    --global-muted-color:                            #ffffff;
+
+    --global-link-color:                             #000000;
+    --global-link-hover-color:                       #797979;
+
+
+    --global-background:                             #fff;
+
+    --global-muted-background:                       #0000;
+
+
+    --global-border-width:                           1px;
+    --global-border:                                 #000000;
+
+    --global-margin:                                 0;
+
+
+    --global-control-height:                         40px;
+  }

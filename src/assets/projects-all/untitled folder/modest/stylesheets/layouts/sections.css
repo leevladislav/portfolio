@@ -1,0 +1,48 @@
+/*layout-logo&navbar*/
+.layout-logo-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*about-us*/
+.layout-about-us {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*our-team*/
+.layout-our-team {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*our-work*/
+.our-work {
+  display: flex;
+  flex-direction: column;
+}
+.layout-our-work {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*skills*/
+.layout-skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*features*/
+.layout-features {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*contacts*/
+.contacts {
+  position: relative;
+}
+/*footer*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 180px;
+}

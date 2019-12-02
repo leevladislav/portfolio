@@ -1,0 +1,19 @@
+.hero {
+    background-color: #87509c;
+
+    &__layout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+
+        min-height: 80vh;
+
+        .hero__title {
+            text-align: center;
+            user-select: none;
+        }
+    }
+}

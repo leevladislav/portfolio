@@ -1,0 +1,41 @@
+:root {
+  --button-color: #ffffff;
+  --button-background: #000000;
+
+  --button-color-hover: #ffffff;
+  --button-background-hover: #a9a9a9;
+
+  --button-color-focus: #ffffff;
+  --button-background-focus: #a9a9a9;
+
+  --button-color-active: #ffffff;
+  --button-background-active: #a9a9a9;
+
+  --button-padding: 6px 12px;
+}
+.button {
+  text-transform: uppercase;
+  padding: var(--button-padding);
+  border-radius: 2px;
+}
+
+.button-second {
+  color: #000000;
+  background-color: #26e6e6;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.button-second:hover {
+  background-color: #a9a9a9;
+  color: #000000;
+}
+.button-third {
+  color: #000000;
+  background-color: #26e6e6;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.button-third:hover {
+  background-color: #a9a9a9;
+  color: #000000;
+}

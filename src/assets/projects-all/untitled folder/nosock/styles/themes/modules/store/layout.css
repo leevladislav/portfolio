@@ -1,0 +1,9 @@
+.layout-main-store {
+    display: flex;
+}
+.layout-store-cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    padding: 0 1em 100px 1em;
+}

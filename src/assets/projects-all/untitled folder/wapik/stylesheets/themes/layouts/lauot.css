@@ -1,0 +1,20 @@
+.layout-pricing {
+  text-align: center;
+  padding: 96px 0;
+}
+
+.layout-footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+@media (max-width: 450px) {
+  .layout-footer-bottom {
+    flex-direction: column;
+  }
+  .layout-footer-bottom > *:first-child {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,28 @@
+.pricing-muted {
+  background-color: var(--global-muted-background);
+}
+.grid-pricing {
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+.header + section {
+  padding-bottom: 0;
+}
+.layout-pricing {
+  padding-bottom: 20px;
+}
+.pricing-text {
+  margin-bottom: 36px;
+}
+.heading {
+  width: 500px;
+  text-align: center;
+  margin: 0 auto 20px;
+}
+.heading:after {
+  content: none;
+}
+.different-pading {
+  padding-top: 40px;
+  padding-bottom: 70px;
+}

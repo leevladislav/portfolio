@@ -1,0 +1,24 @@
+:root {
+  --global-font-family:                            'Quattrocento Sans', sans-serif, Arial, sans-serif;
+  --global-font-size:                              1rem;
+  --global-line-height:                            1.42;
+
+  --global-color:                                  #292f36;
+  --global-muted-color:                            #8d8f92;
+
+  --global-link-color:                             #cacaca;
+  --global-link-hover-color:                       #cacaca;
+
+  --global-inverse-color:                          #fff;
+
+  --global-background:                             #fff;
+  --global-secondary-background:                   #3a454d;
+
+  --global-border-width:                           1px;
+  --global-border-color:                           #e1e6ea;
+  --global-border-radius:                          5px;
+
+  --global-margin:                                 0;
+
+  --global-control-height:                         45px;
+}

@@ -1,0 +1,94 @@
+/* styles for section-projects */
+section.projects .projects-item {
+    min-height: 240px;
+    max-height: 260px;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+section.projects .projects-item-1 {
+    background-image: url(../img/projects/1.jpeg);
+}
+section.projects .projects-item-2 {
+    background-image: url(../img/projects/2.jpeg);
+}
+section.projects .projects-item-3 {
+    background-image: url(../img/projects/3.jpeg);
+}
+section.projects .projects-item-4 {
+    background-image: url(../img/projects/4.jpeg);
+}
+section.projects .projects-item-5 {
+    background-image: url(../img/projects/5.jpeg);
+}
+section.projects .projects-item-6 {
+    background-image: url(../img/projects/6.jpeg);
+}
+section.projects .projects-item-7 {
+    background-image: url(../img/projects/7.jpeg);
+}
+section.projects .projects-item-8 {
+    background-image: url(../img/projects/8.jpeg);
+}
+section.projects .projects-item-9 {
+    background-image: url(../img/projects/9.jpeg);
+}
+section.projects .projects-item-10 {
+    background-image: url(../img/projects/10.jpeg);
+}
+section.projects .projects-item-11 {
+    background-image: url(../img/projects/11.jpeg);
+}
+section.projects .projects-item-12 {
+    background-image: url(../img/projects/12.jpeg);
+}
+section.projects .projects-item-13 {
+    background-image: url(../img/projects/13.jpeg);
+}
+section.projects .projects-item-14 {
+    background-image: url(../img/projects/14.jpeg);
+}
+section.projects .projects-item-15 {
+    background-image: url(../img/projects/15.jpeg);
+}
+section.projects .projects-item-16 {
+    background-image: url(../img/projects/16.jpeg);
+}
+
+section.projects .projects-item:not(:hover) .projects-item-overlay {
+    display: none;
+}
+
+section.projects .projects-item-overlay {
+    display: flex;
+
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    background-color: #00a2b9bf;
+    cursor: pointer;
+}
+
+section.projects .projects-item-overlay a:hover,
+section.projects .projects-item-overlay a:focus, 
+section.projects .projects-item-overlay a:active {
+    text-decoration: none;
+}
+
+@media (max-width: 992px) {
+    section.projects .projects-item {
+        min-height: 360px;
+        max-height: 380px;
+    }
+}
+
+@media (max-width: 768px) {
+    section.projects .projects-item {
+        min-height: 540px;
+        max-height: 560px;
+    }
+}

@@ -1,0 +1,154 @@
+.footer-top {
+  padding-top: 100px;
+  padding-bottom: 45px;
+  border-bottom: 1px solid #eef1ec;
+}
+
+.footer-logo {
+  margin-bottom: 15px;
+  color: #0f5f5c;
+  font-family: "Proxima Nova";
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer-mail,
+.footer-phone,
+.footer-adress {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer-mail > a {
+  color: #0f5f5c;
+}
+
+.footer-header {
+  color: #0f5f5c;
+  font-weight: 500;
+}
+
+.page-footer-form  {
+  position: relative;
+}
+
+.page-footer-form > input {
+  position: relative;
+  padding-right: 40px;
+}
+
+input[type="email"] {
+  border-radius: 3px;
+  border: none;
+  background: #eef1ec;
+}
+
+.fa-paper-plane {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  height: 100%;
+  font-size: 1.5em;
+  color: #6fb048;
+}
+
+.fa {
+  line-height: 2 !important;
+}
+
+.footer-list > li {
+  margin-bottom: 10px;
+}
+
+.social-list {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-list > li > a{
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  margin-right: 7px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.social-item::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 7px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+.twitter::after {
+  background: url(../../../img/social-footer/tw.svg) no-repeat center;
+}
+.twitter:hover {
+  background-color: #008af3;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+.facebook::after {
+  background: url(../../../img/social-footer/fc.svg) no-repeat center;
+}
+.facebook:hover {
+  background-color: #022e8e;
+}
+
+.fotenerwork {
+  background-color: #3f729b;
+}
+.fotenerwork::after {
+  background: url(../../../img/social-footer/cam.svg) no-repeat center;
+}
+.fotenerwork:hover {
+  background-color: #03589c;
+}
+
+.somenetwork {
+  background-color: #ea4c89;
+}
+.somenetwork::after {
+  background: url(../../../img/social-footer/ball.svg) no-repeat center;
+}
+.somenetwork:hover {
+  background-color: #92053b;
+}
+
+.git {
+  background-color: #333333;
+}
+.git::after {
+  background: url(../../../img/social-footer/git.svg) no-repeat center;
+}
+.git:hover {
+  background-color: #270b0b;
+}
+
+.footer-btn {
+  background-color: transparent;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.footer-input {
+  background-color: #eef1ec;
+}
+
+@media (max-width: 450px) {
+  .footer-top{
+    padding-top: 65px;
+    padding-bottom: 25px;
+  }
+}

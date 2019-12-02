@@ -1,0 +1,108 @@
+.header {
+  background-color: #1d2126;
+  height: 80px;
+}
+/*global-components*/
+.heading {
+  border-left: 10px solid var(--global-border-color);
+  line-height: 0.8em;
+  margin-left: 10px;
+  padding-left: 10px;
+  width: 100%;
+}
+/*burger-menu*/
+.nav-burger {
+  display: none;
+}
+/*about-us*/
+.about-us-info {
+  width: 50%;
+}
+.numbers {
+  width: 50%;
+}
+/*our-team*/
+.cards-our-team {
+  background-color: #eaeef1;
+  height: 380px;
+  position: relative;
+  margin: 0em auto 3em;
+}
+.our-team-opacity {
+  display: none;
+  position: absolute;
+  opacity: 0.3;
+  background-color: #292f36;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.cards-our-team:hover .our-team-opacity {
+  display: block;
+}
+.cards-our-team:hover .our-team-hover {
+  display: block;
+}
+.cards-our-team:hover {
+  background-color: #292f36;
+  color: white;
+}
+.our-team-hover {
+  display: none;
+  position: absolute;
+  top: 125px;
+  left: 50px;
+}
+/*our-work*/
+.our-work {
+  background-color: var(--global-secondary-background);
+}
+.our-work-item {
+  width: 360px;
+  position: relative;
+  height: 240px;
+  overflow: hidden;
+  margin: 0em auto 2em;
+}
+.our-work-item:not(:hover) .our-work-hover {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.our-work-hover {
+  display: block;
+}
+.our-work-opacity {
+  position: absolute;
+  opacity: 0.5;
+  background-color: #292f36;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+/*skills*/
+.skills-item {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto 3em;
+}
+/*features*/
+.features {
+  background-color: var(--global-secondary-background);
+}
+.features-card {
+  width: 350px;
+  margin: 0 auto 3em;
+}
+/*footer*/
+.footer {
+  background-color: var(--global-secondary-background);
+  height: 80px;
+}

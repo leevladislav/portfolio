@@ -1,0 +1,7 @@
+.map{
+    background-image: url(../../../images/map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    margin-bottom: 70px;
+}

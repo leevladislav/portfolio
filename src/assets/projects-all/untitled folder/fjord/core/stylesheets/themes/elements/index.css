@@ -1,0 +1,248 @@
+/*header*/
+nav a {
+  padding: 0 20px;
+  text-transform: uppercase;
+  color: var(--global-link-hover-color);
+}
+nav a:hover {
+  color: var(--global-link-color);
+}
+.is-active {
+  color: var(--global-link-color);
+}
+/*services-list*/
+.services-card {
+  width: 24%;
+  text-align: center;
+  margin-bottom: var(--global-margin);
+}
+.services-card h3 {
+  height: 36px;
+}
+.card-envelope:before {
+  content: url(../../../../img/services/1.png);
+  padding: 10px;
+  display: block;
+  height: 80px;
+}
+.card-pencil:before {
+  content: url(../../../../img/services/2.png);
+  padding: 10px;
+  display: block;
+  height: 80px;
+}
+.card-credit:before {
+  content: url(../../../../img/services/3.png);
+  padding: 10px;
+  display: block;
+  height: 80px;
+}
+/*additional-servises*/
+.box-list {
+  background-color: var(--global-background);
+  margin: 0;
+  padding-left: 100px;
+}
+.box-card{
+  padding: 16px;
+  position: relative;
+}
+.box-wrp a {
+  width: 100%;
+}
+.card-file:before {
+  content: url(../../../../img/add-services/1.png);
+  padding: 10px;
+  position: absolute;
+  right: 230px;
+  top: 8px;
+}
+.card-case:before {
+  content: url(../../../../img/add-services/2.png);
+  padding: 10px;
+  position: absolute;
+  right: 230px;
+  top: 8px;
+}
+.card-pen:before {
+  content: url(../../../../img/add-services/3.png);
+  padding: 10px;
+  position: absolute;
+  right: 230px;
+  top: 8px;
+}
+/*features*/
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+.features-list > li {
+  width: calc(100% / 3);
+  padding: 14px 40px;
+}
+.features-card > p {
+  height: 100px;
+}
+/*banner*/
+.banner-wrp {
+  background-color: var(--global-muted-background);
+  height: 70vh;
+  position: relative;
+}
+.banner-info {
+  width: 800px;
+  position: absolute;
+  left: 70px;
+  top: 70px;
+  color: var(--global-inverse-color);
+}
+.banner-wrp h2 {
+  text-transform: capitalize;
+}
+.banner-wrp p {
+  width: 30em;
+}
+.banner-slider {
+  position: absolute;
+  right: 0;
+  top: 14em;
+}
+.banner-slider img {
+  height: 500px;
+}
+/*skills*/
+.list-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-cards > li {
+  width: calc(100% / 3);
+  padding: 20px 80px;
+  position: relative;
+}
+.card-dashboard:before {
+  content: url(../../../../img/skills/1.png);
+  padding: 10px;
+  position: absolute;
+  top: 12px;
+  left: 0;
+}
+.card-discussion:before {
+  content: url(../../../../img/skills/2.png);
+  padding: 10px;
+  position: absolute;
+  top: 12px;
+  left: 0;
+}
+.card-mobile:before {
+  content: url(../../../../img/skills/3.png);
+  padding: 10px;
+  position: absolute;
+  top: 12px;
+  left: 0;
+}
+.card-full:before {
+  content: url(../../../../img/skills/4.png);
+  padding: 10px;
+  position: absolute;
+  top: 12px;
+  left: 0;
+}
+.card-cart:before {
+  content: url(../../../../img/skills/5.png);
+  padding: 10px;
+  position: absolute;
+  top: 12px;
+  left: 0;
+}
+.card-statistics:before {
+  content: url(../../../../img/skills/6.png);
+  padding: 10px;
+  position: absolute;
+  top: 12px;
+  left: 0;
+}
+/*price*/
+.price-item {
+  padding: 2em;
+  text-align: center;
+  width: 30%;
+}
+.price-description {
+  min-height: 140px;
+}
+.coast {
+  font-size: 4em;
+  font-weight: 700;
+  color: #000000;
+}
+.price-item:hover {
+  background-color: #000000;
+}
+.price-item:hover h3 {
+  color: #ffffff;
+}
+.price-item:hover .coast {
+  color: #ffffff;
+}
+/*footer*/
+.footer-title h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 6em;
+  text-align: right;
+}
+.footer-box-wrp {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+.footer-logo a {
+  display: block;
+  padding: 12px;
+}
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 60%;
+  height: 200px;
+  margin: 0;
+}
+.footer-nav li {
+  padding: 12px 0 12px;
+}
+.footer-nav li a {
+  color: #ffffff;
+}
+.footer-nav li a:hover {
+  color: #a9a9a9;
+}
+.copy-social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.copy-social p {
+  text-align: right;
+}
+.copy-social a {
+  text-align: right;
+  display: block;
+}
+.social {
+  text-align: right;
+}
+.copy-social .social a {
+  color: #a9a9a9;
+}
+.social-bottom {
+  padding: 10px 0;
+}
+.social-bottom a {
+  display: inline-block;
+  padding: 10px;
+}

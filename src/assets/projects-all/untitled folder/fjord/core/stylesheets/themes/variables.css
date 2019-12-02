@@ -1,0 +1,21 @@
+:root {
+  --global-font-family:                            'Montserrat', sans-serif, Arial, sans-serif;
+  --global-font-size:                              14px;
+  --global-line-height:                            1.2;
+  --global-color:                                  #000000;
+  --global-muted-color:                            #9fa0a1;
+
+  --global-link-color:                             #000000;
+  --global-link-hover-color:                       #a9a9a9;
+
+  --global-inverse-color:                          #ffffff;
+
+  --global-background:                             #ffffff;
+
+  --global-muted-background:                       #000000;
+  --global-primary-background:                     #f5f6f8;
+  --global-secondary-background:                   #26e6e6;
+
+  --global-border-width:                           1px;
+  --global-border:                                 #e5e5e5;
+}

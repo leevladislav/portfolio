@@ -1,0 +1,38 @@
+.bg-about {
+  background-image: url(../../../img/hero-ab.jpg);
+}
+
+.hero-about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.hero-title-to-center {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 60px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.layout-item .hero-about {
+  max-width: 816px !important;
+}
+
+.discription-is-large {
+  max-width: 700px;
+  margin-bottom: 94px;
+}
+.is-invers {
+  background-color: rgba(111, 176, 72, 0.95);
+}
+
+.is-white {
+  color: #ffffff;
+}
+
+.button-is-darker {
+  background-color: #49732f;
+}

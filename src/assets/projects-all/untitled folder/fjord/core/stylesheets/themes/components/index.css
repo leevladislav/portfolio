@@ -1,0 +1,84 @@
+/*header*/
+.header {
+  background-image: url(../../../../img/background-hero.png);
+  background-size: cover;
+  background-position: 0 0;
+  height: 100vh;
+  position: relative;
+}
+/*burger-menu*/
+.nav-burger {
+  display: none;
+}
+/*additional-servises*/
+.additional-servises {
+  background-image: url(../../../../img/iPhone.png);
+  background-size: cover;
+  background-position: 0 0;
+  height: 100vh;
+}
+.breadcrumbs {
+  text-align: center;
+  padding: 4em 5em;
+}
+.breadcrumbs h2 {
+  text-transform: capitalize;
+}
+.breadcrumbs h3{
+  padding: 0 10%;
+  line-height: 1.8;
+}
+/*features*/
+.features {
+  background-color: var(--global-primary-background);
+}
+/*banner*/
+.banner {
+  background-color: var(--global-primary-background);
+  padding: 0 10em;
+  position: relative;
+  margin-bottom: 14em;
+}
+/*skills*/
+.skills-title {
+  text-align: center;
+  padding: 10px 20em;
+}
+/*gallery*/
+.gallery-item {
+  width: 360px;
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+  margin: 0em auto 2em;
+}
+.gallery-hover {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.gallery-item:hover .gallery-hover {
+  display: block;
+}
+.gallery-opacity {
+  position: absolute;
+  opacity: 0.5;
+  background-color: #292f36;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.gallery-hover a {
+  position: absolute;
+  left: 35%;
+  top: 35%;
+}
+/*footer*/
+.footer-box {
+  padding-bottom: 8em;
+  padding-top: 6em;
+}
