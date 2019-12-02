@@ -1,113 +1,111 @@
 @import "../../styles/variables";
 
 .projects-layout {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 
-    .item-project {
-      position: relative;
-      width: 50%;
-      min-width: 400px;
-      height: 400px;
-      flex-grow: 1;
-      overflow: hidden;
-      color: #fff;
-      transition: 2s;
+  .item-project {
+    position: relative;
+    width: 50%;
+    min-width: 400px;
+    height: 400px;
+    flex-grow: 1;
+    overflow: hidden;
+    color: #fff;
+    transition: 2s;
+
+    @media screen and (max-width: 768px) {
+      min-width: 100%;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      height: 100%;
+      left: 0;
+      width: 100%;
+
+      background-color: rgba(0, 0, 0, 0);
+      transition: 0.4s;
 
       @media screen and (max-width: 768px) {
-        min-width: 100%;
-      }
-
-      &:after {
-        content: "";
-        position: absolute;
-        top: 0;
-        height: 100%;
-        left: 0;
-        width: 100%;
-
-        background-color: rgba(0, 0, 0, 0);
-        transition: 0.4s;
-
-        @media screen and (max-width: 768px) {
-          background-color: rgba(0, 0, 0, 0.6);
-        }
-      }
-
-      &:hover {
-        transition: 2s;
-
-        &:after {
-          background-color: rgba(0, 0, 0, 0.6);
-        }
-      }
-
-      .project-image {
-        height: 100%;
-
-        img {
-          object-fit: cover;
-          height: 100%;
-          width: 100%;
-        }
-      }
-
-      .project-overlay {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        top: 100%;
-        z-index: 1;
-        padding: 1.4rem;
-        transition: 0.3s;
-
-        @media screen and (max-width: 768px) {
-          top: 0;
-        }
-
-        a {
-          color: $light-color;
-        }
-
-        .overlay-title {
-          text-transform: uppercase;
-          color: $accent-color;
-        }
-
-        .overlay-tools {
-          padding: 0;
-          list-style-type: none;
-
-          li {
-            padding: 0;
-            text-align: center;
-          }
-        }
-
-        .overlay-link {
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          align-self: flex-start;
-          padding: 1rem;
-          margin: 1rem;
-          font-size: 2rem;
-          border-radius: 50%;
-          border: 2px solid $accent-color;
-          color: $accent-color;
-        }
-      }
-
-      &:hover .project-overlay {
-        top: 0;
+        background-color: rgba(0, 0, 0, 0.6);
       }
     }
+
+    &:hover {
+      transition: 2s;
+
+      &:after {
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+    }
+
+    .project-image {
+      height: 100%;
+
+      img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    .project-overlay {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 100%;
+      z-index: 1;
+      padding: 1.4rem;
+      transition: 0.3s;
+
+      @media screen and (max-width: 768px) {
+        top: 0;
+      }
+
+      a {
+        color: $light-color;
+      }
+
+      .overlay-title {
+        text-transform: uppercase;
+        color: $accent-color;
+      }
+
+      .overlay-tools {
+
+        li {
+          padding: 0;
+          text-align: center;
+        }
+      }
+
+      .overlay-link {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: flex-start;
+        padding: 1rem;
+        margin: 1rem;
+        font-size: 2rem;
+        border-radius: 50%;
+        border: 2px solid $accent-color;
+        color: $accent-color;
+      }
+    }
+
+    &:hover .project-overlay {
+      top: 0;
+    }
+  }
 }
