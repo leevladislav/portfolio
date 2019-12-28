@@ -10,7 +10,7 @@ export class HomeComponent implements OnInit {
     {
       title: 'Piroll-Design',
       subtitle: 'The lite project to improve my skills',
-      image: 'Piroll-Design.jpeg',
+      image: 'piroll-design.jpeg',
       tools: [
         'HTML5',
         'CSS/SCSS',
@@ -24,7 +24,7 @@ export class HomeComponent implements OnInit {
     {
       title: 'Cuda template',
       subtitle: 'The lite project to improve my skills',
-      image: 'Cuda.jpeg',
+      image: 'cuda.jpeg',
       tools: [
         'HTML5',
         'CSS/SCSS',
@@ -35,9 +35,23 @@ export class HomeComponent implements OnInit {
       link: 'assets/projects/cuda-master/dist/index.html',
     },
     {
+      title: 'Bodes Studio',
+      subtitle: 'Apartment design project remotely',
+      image: 'bodesstudio.jpeg',
+      tools: [
+        'Wordpress',
+        'HTML5',
+        'SCSS',
+        'SMACSS',
+        'JS/JQuery',
+        'Gulp 4',
+      ],
+      link: 'https://bodesstudio.com',
+    },
+    {
       title: 'Codepen',
       subtitle: 'My dashboard and profile',
-      image: 'Codepen.jpeg',
+      image: 'codepen.jpeg',
       link: 'https://codepen.io/vladislavlee/',
     },
   ];

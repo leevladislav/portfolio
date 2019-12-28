@@ -2,7 +2,7 @@
   <a *ngFor="let project of projects"
      id="{{project.id}}"
      class="layout-item item-project"
-     target="_blank" href="project.link">
+     target="_blank" href="{{project.link}}">
 
     <div class="project-image">
       <img src="assets/images/projects/{{project.image}}" alt="{{project.title}}">

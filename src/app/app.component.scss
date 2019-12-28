@@ -1,5 +1,9 @@
 .app-root-layout {
   .main {
     padding-left: 280px;
+
+    @media screen and (max-width: 768px) {
+      padding-left: 0;
+    }
   }
 }
