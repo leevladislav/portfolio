@@ -13,8 +13,8 @@
 
       <p class="overlay-subtitle">{{project.subtitle}}</p>
 
-      <ul class="overlay-tools" *ngFor="let tools of project.tools">
-        <li id="{{tools.id}}">{{tools}}</li>
+      <ul class="overlay-tools">
+        <li *ngFor="let tools of project.tools" id="{{tools.id}}">{{tools}}</li>
       </ul>
 
       <a href="{{project.link}}" class="overlay-link">

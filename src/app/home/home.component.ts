@@ -8,8 +8,37 @@ import {Component, OnInit} from '@angular/core';
 export class HomeComponent implements OnInit {
   projects: any = [
     {
+      title: 'Bodes Studio',
+      subtitle: 'Apartment design project remotely',
+      image: 'bodesstudio.jpeg',
+      tools: [
+        'Wordpress',
+        'Own Theme',
+        'HTML5',
+        'SCSS',
+        'SMACSS',
+        'JS/JQuery',
+        'Gulp 4',
+      ],
+      link: 'https://bodesstudio.com',
+    },
+    {
+      title: 'The Word of the Day',
+      subtitle: 'The small project to improve my skills',
+      image: 'word-of-the-day.png',
+      tools: [
+        'Angular 8',
+        'Typescript',
+        'HTML5',
+        'CSS/SCSS',
+        'SMACSS',
+        'Webpack 4',
+      ],
+      link: 'https://github.com/leevladislav/word-culture',
+    },
+    {
       title: 'Piroll-Design',
-      subtitle: 'The lite project to improve my skills',
+      subtitle: 'The small project to improve my skills',
       image: 'piroll-design.jpeg',
       tools: [
         'HTML5',
@@ -23,7 +52,7 @@ export class HomeComponent implements OnInit {
     },
     {
       title: 'Cuda template',
-      subtitle: 'The lite project to improve my skills',
+      subtitle: 'The small project to improve my skills',
       image: 'cuda.jpeg',
       tools: [
         'HTML5',
@@ -35,21 +64,7 @@ export class HomeComponent implements OnInit {
       link: 'assets/projects/cuda-master/dist/index.html',
     },
     {
-      title: 'Bodes Studio',
-      subtitle: 'Apartment design project remotely',
-      image: 'bodesstudio.jpeg',
-      tools: [
-        'Wordpress',
-        'HTML5',
-        'SCSS',
-        'SMACSS',
-        'JS/JQuery',
-        'Gulp 4',
-      ],
-      link: 'https://bodesstudio.com',
-    },
-    {
-      title: 'Codepen',
+      title: 'Codepen Dashboard',
       subtitle: 'My dashboard and profile',
       image: 'codepen.jpeg',
       link: 'https://codepen.io/vladislavlee/',

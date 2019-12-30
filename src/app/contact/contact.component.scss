@@ -1,51 +1,30 @@
 .contact {
-  .item-map {
-      .item-map-layout {
-        height: 350px;
-        overflow: hidden;
-      }
-  }
-
   .item-info {
     .item-info-layout {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      padding: 2em 0 2em 0;
+      .info-address,
+      .info-actions {
+        display: flex;
+        flex-direction: column;
 
-      .item-data {
-        width: 300px;
+        li {
+          padding: 0;
 
-        .data-address,
-        .data-actions {
-          display: flex;
-          flex-direction: column;
+          a {
+            position: relative;
+            display: inline-block;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 30px;
 
-          li {
-            padding: 0;
-
-            a {
-              position: relative;
-              display: inline-block;
-              padding-top: 6px;
-              padding-bottom: 6px;
-              padding-left: 30px;
-
-              [class^="icon-"],
-              [class*=" icon-"] {
-                position: absolute;
-                left: 0;
-                top: 0;
-                font-size: 1.4rem;
-              }
+            [class^="icon-"],
+            [class*=" icon-"] {
+              position: absolute;
+              left: 0;
+              top: 0;
+              font-size: 1.4rem;
             }
           }
         }
-      }
-
-      .item-form {
-        flex-grow: 1;
-        padding: 1rem;
       }
     }
   }

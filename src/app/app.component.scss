@@ -1,6 +1,7 @@
 .app-root-layout {
   .main {
     padding-left: 280px;
+    min-height: 100vh;
 
     @media screen and (max-width: 768px) {
       padding-left: 0;
