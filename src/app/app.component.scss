@@ -7,4 +7,11 @@
       padding-left: 0;
     }
   }
+
+  ::ng-deep {
+    app-contact {
+      display: flex;
+      min-height: 100vh;
+    }
+  }
 }

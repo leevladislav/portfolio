@@ -1,0 +1,10 @@
+<div class="technology-layout">
+    <h2 class="layout-item technology-title">Technologies I like</h2>
+
+    <ul class="layout-item technology-list" *ngFor="let technology of technologies">
+        <li class="list-item">
+            <img src="{{technology.path}}" alt="{{technology.title}}" 
+            title="{{technology.title}}" matTooltip="{{technology.title}}">
+        </li>
+    </ul>
+</div>

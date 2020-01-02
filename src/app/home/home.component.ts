@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
       image: 'bodesstudio.jpeg',
       tools: [
         'Wordpress',
-        'Own Theme',
+        'Own Theme + Multilang',
         'HTML5',
         'SCSS',
         'SMACSS',
