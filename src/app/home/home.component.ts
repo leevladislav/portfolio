@@ -23,12 +23,29 @@ export class HomeComponent implements OnInit {
       link: 'https://bodesstudio.com',
     },
     {
+      title: 'Groove-Avenue',
+      subtitle: 'Original Sneaker Store',
+      image: 'groove-avenue.jpeg',
+      tools: [
+        'Angular 8',
+        'Typescript',
+        'Rx.js',
+        'Moment.js',
+        'HTML5',
+        'CSS/SCSS',
+        'SMACSS',
+        'Webpack 4',
+      ],
+      link: 'http://groove-avenue.com',
+    },
+    {
       title: 'CRM For Small Business',
       subtitle: 'Manage your business on this app',
       image: 'admin-groove-avenue.jpeg',
       tools: [
         'Angular 8',
         'Typescript',
+        'Rx.js',
         'Node.js',
         'Express',
         'MongoDB',
@@ -55,6 +72,19 @@ export class HomeComponent implements OnInit {
       link: 'https://github.com/leevladislav/word-culture',
     },
     {
+      title: 'Blue',
+      subtitle: 'The small project to improve my skills',
+      image: 'blue.jpeg',
+      tools: [
+        'HTML5',
+        'CSS/SCSS',
+        'SMACSS',
+        'JS/JQuery',
+        'Gulp 4',
+      ],
+      link: 'assets/projects/blue/index.html',
+    },
+    {
       title: 'Piroll-Design',
       subtitle: 'The small project to improve my skills',
       image: 'piroll-design.jpeg',
@@ -66,7 +96,7 @@ export class HomeComponent implements OnInit {
         'Bootstrap 4',
         'Gulp 4',
       ],
-      link: 'assets/projects/Piroll-Design-master/index.html',
+      link: 'assets/projects/piroll/index.html',
     },
     {
       title: 'Cuda template',
@@ -79,7 +109,7 @@ export class HomeComponent implements OnInit {
         'JS/JQuery',
         'Gulp 4',
       ],
-      link: 'assets/projects/cuda-master/dist/index.html',
+      link: 'assets/projects/cuda/dist/index.html',
     },
     {
       title: 'Codepen Dashboard',
