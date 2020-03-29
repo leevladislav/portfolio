@@ -112,6 +112,19 @@ export class HomeComponent implements OnInit {
       link: 'assets/projects/cuda/dist/index.html',
     },
     {
+      title: 'Solid',
+      subtitle: 'The small project to improve my skills',
+      image: 'solid.jpeg',
+      tools: [
+        'HTML5',
+        'CSS/SCSS',
+        'SMACSS',
+        'JS/JQuery',
+        'Gulp 4',
+      ],
+      link: 'assets/projects/solid/index.html',
+    },
+    {
       title: 'Codepen Dashboard',
       subtitle: 'My dashboard and profile',
       image: 'codepen.jpeg',
@@ -124,5 +137,4 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }
