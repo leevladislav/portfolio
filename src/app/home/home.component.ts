@@ -64,6 +64,18 @@ export class HomeComponent implements OnInit {
       link: 'http://word.leevladislav.com',
     },
     {
+      title: 'Marsala',
+      subtitle: 'The small project to improve my skills',
+      image: 'marsala.jpeg',
+      tools: [
+        'HTML5',
+        'CSS/SCSS (SMACSS)',
+        'JS/JQuery',
+        'Gulp 4',
+      ],
+      link: 'assets/projects/marsala/index.html',
+    },
+    {
       title: 'Blue',
       subtitle: 'The small project to improve my skills',
       image: 'blue.jpeg',
