@@ -1,0 +1,14 @@
+section.about {
+  background-image: url(../img/background/about.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+section.about .about-info {
+  background-color: #e8e8ea75;
+}
+
+section.about .about-signature .icon-signature:before {
+  font-size: 14rem;
+}

@@ -88,17 +88,16 @@ export class HomeComponent implements OnInit {
       link: 'assets/projects/blue/index.html',
     },
     {
-      title: 'Piroll-Design',
+      title: 'Kate Stanford',
       subtitle: 'The small project to improve my skills',
-      image: 'piroll-design.jpeg',
+      image: 'kate-stanford.jpeg',
       tools: [
         'HTML5',
         'CSS/SCSS (SMACSS)',
         'JS/JQuery',
-        'Bootstrap 4',
-        'Gulp 4',
+        'Bootstrap 4'
       ],
-      link: 'assets/projects/piroll/index.html',
+      link: 'assets/projects/kate-stanford/index.html',
     },
     {
       title: 'Cuda template',

@@ -1,8 +1,0 @@
-:root {
-    --color-link:        rgb(253, 239, 239);
-    --color-link-active: #17a2b8;
-}
-
-.btn {
-    padding: 0.6rem 2rem;
-}

@@ -1,0 +1,55 @@
+.hero-home {
+  background-image: url(../img/background/hero.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  transition: all 0.4s;
+}
+
+.nav-item .nav-link {
+  color: var(--color-link);
+  font-weight: 200;
+}
+
+.nav-item .nav-link.active {
+  color: var(--color-link-active);
+}
+
+.header .mobile-menu {
+  display: none;
+}
+
+.header .mobile-menu .navbar {
+  padding: 1rem;
+}
+
+.hero-home .jumbotron {
+  min-height: calc((100vh - 40px) - 2rem);
+  background-color: transparent;
+}
+
+@media screen and (max-width: 1024px) {
+  .hero-home {
+    background-position: right center;
+    transition: all 0.4s;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header .main-menu {
+    display: none !important;
+  }
+
+  .header .mobile-menu {
+    display: block;
+  }
+
+  .header .mobile-menu .navbar {
+    justify-content: center;
+  }
+
+  .header .mobile-menu .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}

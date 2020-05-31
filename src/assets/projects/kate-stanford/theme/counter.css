@@ -1,0 +1,9 @@
+section.counter p {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  section.counter .counter-item {
+    justify-content: flex-start !important;
+  }
+}

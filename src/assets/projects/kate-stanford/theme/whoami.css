@@ -1,0 +1,20 @@
+section.whoami > .container > .row {
+  min-height: 66vh;
+}
+
+section.whoami-about {
+  background-image: url(../img/background/whoami.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+section.whoami-about:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff3d;
+}
