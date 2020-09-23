@@ -24,6 +24,23 @@ export class TechnologyComponent implements OnInit {
       path: '/assets/images/technology/es6.png'
     },
     {
+      title: 'JQuery',
+      path: '/assets/images/technology/jquery.png'
+    },
+    {
+      title: 'Lodash',
+      path: '/assets/images/technology/lodash.png'
+    },
+    {
+      title: 'Socket.io',
+      path: '/assets/images/technology/socket.io.png'
+    },
+    {
+      title: 'JSON',
+      path: '/assets/images/technology/json.png'
+    },
+
+    {
       title: 'GIT',
       path: '/assets/images/technology/git.png'
     },
@@ -36,22 +53,61 @@ export class TechnologyComponent implements OnInit {
       path: '/assets/images/technology/bitbucket.png'
     },
     {
+      title: 'MongoDB',
+      path: '/assets/images/technology/mongodb.png'
+    },
+
+    {
+      title: 'npm',
+      path: '/assets/images/technology/npm.png'
+    },
+    {
+      title: 'Webpack',
+      path: '/assets/images/technology/webpack.png'
+    },
+    {
       title: 'Bower',
       path: '/assets/images/technology/bower.png'
     },
+    {
+      title: 'Gulp',
+      path: '/assets/images/technology/gulp.png'
+    },
+
     {
       title: 'Bootstrap',
       path: '/assets/images/technology/bootstrap.png'
     },
     {
-      title: 'Visual Studio Code',
-      path: '/assets/images/technology/vscode.png'
+      title: 'Less',
+      path: '/assets/images/technology/less.png'
     },
     {
-      title: 'PHPStorm',
-      path: '/assets/images/technology/phpstorm.png'
+      title: 'Sass',
+      path: '/assets/images/technology/sass.png'
+    },
+
+    {
+      title: 'Heroku',
+      path: '/assets/images/technology/heroku.png'
+    },
+
+    {
+      title: 'Docker',
+      path: '/assets/images/technology/docker.png'
     },
   ];
+
+  // TODO: REST API
+  // TODO: TypeScript
+  // TODO: Material-UI
+  // TODO: Wordpress
+  // TODO: Angular
+  // TODO: Node.js
+  // TODO: Ajax
+  // TODO: Figma
+  // TODO: Photoshop
+  // TODO: Illustrator
 
   constructor() {
 
