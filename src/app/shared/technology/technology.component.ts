@@ -99,6 +99,8 @@ export class TechnologyComponent implements OnInit {
   ];
 
   // TODO: REST API
+  // TODO: Babel
+  // TODO: Firebase
   // TODO: TypeScript
   // TODO: Material-UI
   // TODO: Wordpress
