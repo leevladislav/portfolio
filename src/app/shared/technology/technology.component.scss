@@ -32,6 +32,11 @@
 
       img {
         max-width: 50px;
+
+        &.horizontal {
+          max-width: 100%;
+          max-height: 36px;
+        }
       }
 
       .title {

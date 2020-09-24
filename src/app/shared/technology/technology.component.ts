@@ -9,107 +9,167 @@ export class TechnologyComponent implements OnInit {
   technologies = [
     {
       title: 'HTML5',
-      path: '/assets/images/technology/html.png'
+      iconName: 'html.png'
     },
     {
       title: 'CSS3',
-      path: '/assets/images/technology/css.png'
+      iconName: 'css.png'
     },
     {
       title: 'JavaScript',
-      path: '/assets/images/technology/javascript.png'
+      iconName: 'javascript.png'
     },
     {
       title: 'JavaScript(ES6)',
-      path: '/assets/images/technology/es6.png'
+      iconName: 'es6.png'
+    },
+    {
+      title: 'Angular',
+      iconName: 'angular.png'
+    },
+    {
+      title: 'NodeJS',
+      iconName: 'node-js.png'
+    },
+    {
+      title: 'Express',
+      iconName: 'express.png',
+      isHorizontal: true
+    },
+    {
+      title: 'Typescript',
+      iconName: 'typescript.png'
+    },
+    {
+      title: 'RxJS',
+      iconName: 'rxjs.png'
+    },
+    {
+      title: 'VueJS',
+      iconName: 'vue.png'
+    },
+    {
+      title: 'Redux',
+      iconName: 'redux.png'
     },
     {
       title: 'JQuery',
-      path: '/assets/images/technology/jquery.png'
+      iconName: 'jquery.png',
+      isHorizontal: true
+    },
+    {
+      title: 'Babel',
+      iconName: 'babel.png',
+      isHorizontal: true
     },
     {
       title: 'Lodash',
-      path: '/assets/images/technology/lodash.png'
+      iconName: 'lodash.png'
     },
     {
       title: 'Socket.io',
-      path: '/assets/images/technology/socket.io.png'
+      iconName: 'socket.io.png'
+    },
+    {
+      title: 'ESLint',
+      iconName: 'eslint.png'
     },
     {
       title: 'JSON',
-      path: '/assets/images/technology/json.png'
-    },
-
-    {
-      title: 'GIT',
-      path: '/assets/images/technology/git.png'
+      iconName: 'json.png'
     },
     {
-      title: 'GitHub',
-      path: '/assets/images/technology/github.png'
+      title: 'Jasmine',
+      iconName: 'jasmine.png'
     },
     {
-      title: 'BitBucket',
-      path: '/assets/images/technology/bitbucket.png'
-    },
-    {
-      title: 'MongoDB',
-      path: '/assets/images/technology/mongodb.png'
-    },
-
-    {
-      title: 'npm',
-      path: '/assets/images/technology/npm.png'
-    },
-    {
-      title: 'Webpack',
-      path: '/assets/images/technology/webpack.png'
-    },
-    {
-      title: 'Bower',
-      path: '/assets/images/technology/bower.png'
-    },
-    {
-      title: 'Gulp',
-      path: '/assets/images/technology/gulp.png'
-    },
-
-    {
-      title: 'Bootstrap',
-      path: '/assets/images/technology/bootstrap.png'
-    },
-    {
-      title: 'Less',
-      path: '/assets/images/technology/less.png'
+      title: 'Karma',
+      iconName: 'karma.png'
     },
     {
       title: 'Sass',
-      path: '/assets/images/technology/sass.png'
+      iconName: 'sass.png'
     },
-
+    {
+      title: 'Less',
+      iconName: 'less.png',
+      isHorizontal: true
+    },
+    {
+      title: 'Bootstrap',
+      iconName: 'bootstrap.png'
+    },
+    {
+      title: 'MaterialUI',
+      iconName: 'material-ui.png'
+    },
+    {
+      title: 'npm',
+      iconName: 'npm.png',
+      isHorizontal: true
+    },
+    {
+      title: 'Webpack',
+      iconName: 'webpack.png'
+    },
+    {
+      title: 'Bower',
+      iconName: 'bower.png'
+    },
+    {
+      title: 'Gulp',
+      iconName: 'gulp.png'
+    },
+    {
+      title: 'GIT',
+      iconName: 'git.png'
+    },
+    {
+      title: 'GitHub',
+      iconName: 'github.png'
+    },
+    {
+      title: 'MongoDB',
+      iconName: 'mongodb.png',
+      isHorizontal: true
+    },
+    {
+      title: 'MySQL',
+      iconName: 'mysql.png'
+    },
     {
       title: 'Heroku',
-      path: '/assets/images/technology/heroku.png'
+      iconName: 'heroku.png'
     },
-
+    {
+      title: 'Firebase',
+      iconName: 'firebase.png'
+    },
     {
       title: 'Docker',
-      path: '/assets/images/technology/docker.png'
+      iconName: 'docker.png'
+    },
+    {
+      title: 'Figma',
+      iconName: 'figma.png'
+    },
+    {
+      title: 'Illustrator',
+      iconName: 'illustrator.png'
+    },
+    {
+      title: 'Photoshop',
+      iconName: 'photoshop.png'
+    },
+    {
+      title: 'Webstorm',
+      iconName: 'webstorm.png'
+    },
+    {
+      title: 'Wordpress',
+      iconName: 'wordpress.png'
     },
   ];
-
-  // TODO: REST API
-  // TODO: Babel
-  // TODO: Firebase
-  // TODO: TypeScript
-  // TODO: Material-UI
-  // TODO: Wordpress
-  // TODO: Angular
-  // TODO: Node.js
-  // TODO: Ajax
-  // TODO: Figma
-  // TODO: Photoshop
-  // TODO: Illustrator
 
   constructor() {
 

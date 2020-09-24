@@ -3,7 +3,9 @@
 
   <ul class="layout-item technology-list">
     <li class="list-item" *ngFor="let technology of technologies">
-      <img src="{{technology.path}}" alt="{{technology.title}}" title="{{technology.title}}"
+      <img [class.horizontal]="technology.isHorizontal" src="/assets/images/technology/{{technology.iconName}}"
+           alt="{{technology.title}}"
+           title="{{technology.title}}"
            matTooltip="{{technology.title}}">
 
       <p class="title">{{technology.title}}</p>
