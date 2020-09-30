@@ -1,0 +1,67 @@
+<div class="site-container">
+  <div class="header-layout">
+    <a [routerLink]="['/home']" class="layout-item item-logo">
+      <div class="logo-wrapper">
+        <img src="assets/images/main-logo.png" alt="Vladislav Lee">
+      </div>
+
+      Vladislav Lee
+    </a>
+
+    <nav class="layout-item item-menu">
+      <a [routerLink]="['/home']" routerLinkActive="active">Home</a>
+
+      <a [routerLink]="['/about']" routerLinkActive="active">About</a>
+
+      <a [routerLink]="['/projects']" routerLinkActive="active">Projects</a>
+
+      <a href="assets/docs/CV_Vladislav_Lee_frontend.pdf" target="_blank">
+        Look at my CV
+      </a>
+    </nav>
+
+    <div class="layout-item item-mobile-menu">
+      <button mat-icon-button [matMenuTriggerFor]="bisMenu">
+        <mat-icon>menu</mat-icon>
+      </button>
+
+      <mat-menu #bisMenu="matMenu">
+        <button mat-menu-item [routerLink]="['/home']" routerLinkActive="active">
+          Home
+        </button>
+
+        <button mat-menu-item [routerLink]="['/about']" routerLinkActive="active">
+          About
+        </button>
+
+        <button mat-menu-item [routerLink]="['/projects']" routerLinkActive="active">
+          Projects
+        </button>
+
+        <a mat-menu-item href="assets/docs/CV_Vladislav_Lee_frontend.pdf" target="_blank">
+          Look at my CV
+        </a>
+      </mat-menu>
+    </div>
+  </div>
+</div>
+
+<!--  <div class="nav-bar-footer">-->
+<!--    <div class="footer-layout">-->
+<!--      <a class="layout-item" href="mailto:vladislavlee.job@gmail.com" target="_blank">-->
+<!--        <span class="icon-google"></span>-->
+<!--      </a>-->
+<!--      <a class="layout-item" href="https://github.com/leevladislav" target="_blank">-->
+<!--        <span class="icon-github"></span>-->
+<!--      </a>-->
+<!--      <a class="layout-item" href="https://www.linkedin.com/in/vladislav-lee" target="_blank">-->
+<!--        <span class="icon-linkedin"></span>-->
+<!--      </a>-->
+<!--      <a class="layout-item" href="https://codepen.io/vladislavlee/" target="_blank">-->
+<!--        <span class="icon-codepen"></span>-->
+<!--      </a>-->
+<!--      <a class="layout-item" href="tel:+380996491632" target="_blank">-->
+<!--        <span class="icon-phone"></span>-->
+<!--      </a>-->
+<!--    </div>-->
+<!--  </div>-->

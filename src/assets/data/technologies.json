@@ -1,0 +1,160 @@
+[
+  {
+    "title": "HTML5",
+    "iconName": "html.png"
+  },
+  {
+    "title": "CSS3",
+    "iconName": "css.png"
+  },
+  {
+    "title": "JavaScript",
+    "iconName": "javascript.png"
+  },
+  {
+    "title": "Angular",
+    "iconName": "angular.png"
+  },
+  {
+    "title": "NodeJS",
+    "iconName": "node-js.png"
+  },
+  {
+    "title": "Express",
+    "iconName": "express.png",
+    "isHorizontal": true
+  },
+  {
+    "title": "Typescript",
+    "iconName": "typescript.png"
+  },
+  {
+    "title": "RxJS",
+    "iconName": "rxjs.png"
+  },
+  {
+    "title": "VueJS",
+    "iconName": "vue.png"
+  },
+  {
+    "title": "Redux",
+    "iconName": "redux.png"
+  },
+  {
+    "title": "JQuery",
+    "iconName": "jquery.png",
+    "isHorizontal": true
+  },
+  {
+    "title": "Babel",
+    "iconName": "babel.png",
+    "isHorizontal": true
+  },
+  {
+    "title": "Lodash",
+    "iconName": "lodash.png"
+  },
+  {
+    "title": "Socket.io",
+    "iconName": "socket.io.png"
+  },
+  {
+    "title": "ESLint",
+    "iconName": "eslint.png"
+  },
+  {
+    "title": "JSON",
+    "iconName": "json.png"
+  },
+  {
+    "title": "Jasmine",
+    "iconName": "jasmine.png"
+  },
+  {
+    "title": "Karma",
+    "iconName": "karma.png"
+  },
+  {
+    "title": "Sass",
+    "iconName": "sass.png"
+  },
+  {
+    "title": "Less",
+    "iconName": "less.png",
+    "isHorizontal": true
+  },
+  {
+    "title": "Bootstrap",
+    "iconName": "bootstrap.png"
+  },
+  {
+    "title": "MaterialUI",
+    "iconName": "material-ui.png"
+  },
+  {
+    "title": "npm",
+    "iconName": "npm.png",
+    "isHorizontal": true
+  },
+  {
+    "title": "Webpack",
+    "iconName": "webpack.png"
+  },
+  {
+    "title": "Bower",
+    "iconName": "bower.png"
+  },
+  {
+    "title": "Gulp",
+    "iconName": "gulp.png"
+  },
+  {
+    "title": "GIT",
+    "iconName": "git.png"
+  },
+  {
+    "title": "GitHub",
+    "iconName": "github.png"
+  },
+  {
+    "title": "MongoDB",
+    "iconName": "mongodb.png",
+    "isHorizontal": true
+  },
+  {
+    "title": "MySQL",
+    "iconName": "mysql.png"
+  },
+  {
+    "title": "Heroku",
+    "iconName": "heroku.png"
+  },
+  {
+    "title": "Firebase",
+    "iconName": "firebase.png"
+  },
+  {
+    "title": "Docker",
+    "iconName": "docker.png"
+  },
+  {
+    "title": "Figma",
+    "iconName": "figma.png"
+  },
+  {
+    "title": "Illustrator",
+    "iconName": "illustrator.png"
+  },
+  {
+    "title": "Photoshop",
+    "iconName": "photoshop.png"
+  },
+  {
+    "title": "Webstorm",
+    "iconName": "webstorm.png"
+  },
+  {
+    "title": "Wordpress",
+    "iconName": "wordpress.png"
+  }
+]

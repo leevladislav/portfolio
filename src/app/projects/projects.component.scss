@@ -1,0 +1,90 @@
+@import '../../styles/variables';
+
+.projects-layout {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+
+  .item-project {
+    position: relative;
+    width: calc(33.3% - 20px);
+    min-height: 300px;
+    margin: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+    color: $light-color;
+    box-shadow: $box-shadow;
+
+    @media screen and (max-width: 1024px) {
+      width: calc(50% - 20px);
+      transition: 0.5s;
+    }
+
+    @media screen and (max-width: 768px) {
+      width: calc(100% - 20px);
+      transition: 0.5s;
+    }
+
+    .project-image {
+      height: 100%;
+
+      img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    .project-overlay {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      z-index: 1;
+      padding: 1rem;
+      opacity: 0;
+      background-color: rgba(0, 0, 0, 0.6);
+      transition: 0.5s;
+
+      .overlay-title {
+        text-transform: uppercase;
+        color: $accent-color;
+      }
+
+      .overlay-tools {
+        margin: 0;
+
+        li {
+          padding: 2px;
+          text-align: center;
+        }
+      }
+
+      .overlay-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: flex-start;
+
+        position: absolute;
+        bottom: 1rem;
+        left: 1rem;
+        padding: 0.8rem;
+        font-size: 1.4rem;
+        color: $accent-color;
+      }
+    }
+
+    &:hover {
+      .project-overlay {
+        opacity: 1;
+        transition: 0.5s;
+      }
+    }
+  }
+}

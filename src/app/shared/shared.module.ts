@@ -1,14 +1,14 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {HeaderComponent} from './header/header.component';
 import {RouterModule} from '@angular/router';
-import {TechnologyComponent} from './technology/technology.component';
-import {MaterialModule} from './material/material.module'
+import {MaterialModule} from './material/material.module';
+import {SiteLayoutComponent} from './layouts/site-layout/site-layout.component';
+import {HeaderComponent} from './layouts/site-layout/header/header.component';
 
 @NgModule({
   declarations: [
-    HeaderComponent,
-    TechnologyComponent,
+    SiteLayoutComponent,
+    HeaderComponent
   ],
   imports: [
     CommonModule,
@@ -16,8 +16,6 @@ import {MaterialModule} from './material/material.module'
     MaterialModule
   ],
   exports: [
-    HeaderComponent,
-    TechnologyComponent,
     MaterialModule
   ]
 })

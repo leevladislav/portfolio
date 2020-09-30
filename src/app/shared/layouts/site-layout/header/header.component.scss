@@ -1,0 +1,57 @@
+@import '../../../../../styles/variables';
+
+:host {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background-color: $light-color;
+  box-shadow: $box-shadow;
+}
+
+.header-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 60px;
+  margin: 0 -20px;
+
+  .item-logo {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+
+    &:hover {
+      color: $link-color;
+    }
+
+    .logo-wrapper {
+      display: flex;
+      align-items: center;
+      max-width: 40px;
+    }
+  }
+
+  .item-menu {
+    @media screen and (max-width: 1024px) {
+      display: none;
+    }
+
+    a {
+      padding: 20px;
+
+      &.active {
+        color: $accent-color;
+        border-bottom: 2px solid $accent-color;
+      }
+    }
+  }
+
+  .item-mobile-menu {
+    display: none;
+    padding: 0 20px;
+
+    @media screen and (max-width: 1024px) {
+      display: block;
+    }
+  }
+}

@@ -1,6 +1,9 @@
-@import '@angular/material/prebuilt-themes/indigo-pink.css';
-@import "styles/index";
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap');
+@import 'assets/icomoon/style.css';
 
-html, body {
-  height: 100%;
-}
+// Material theme
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+// Custom styles
+@import 'styles/index';

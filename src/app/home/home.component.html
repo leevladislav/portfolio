@@ -1,25 +1,3 @@
-<div class="projects-layout">
-  <a *ngFor="let project of projects"
-     id="{{project.id}}"
-     class="layout-item item-project"
-     target="_blank" href="{{project.link}}">
-
-    <div class="project-image">
-      <img src="assets/images/projects/{{project.image}}" alt="{{project.title}}">
-    </div>
-
-    <div class="project-overlay">
-      <h4 class="overlay-title">{{project.title}}</h4>
-
-      <p class="overlay-subtitle">{{project.subtitle}}</p>
-
-      <ul class="overlay-tools">
-        <li *ngFor="let tools of project.tools" id="{{tools.id}}">{{tools}}</li>
-      </ul>
-
-      <a href="{{project.link}}" class="overlay-link">
-        <span class="icon-link"></span>
-      </a>
-    </div>
-  </a>
+<div class="site-container">
+  <app-hero></app-hero>
 </div>

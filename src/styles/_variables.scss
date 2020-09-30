@@ -1,11 +1,26 @@
+$light-color: #ffffff;
+$accent-color: #42b983;
+$dark-color: #000;
+
+$border-radius: 20px;
+$box-shadow: 2px 2px 14px #d2d2d4;
+
+$bold-font-weight: 600;
+$border-width: 2px;
+
+
+
+
+
+
 $main-font-family: 'PT Mono', monospace;
 $main-font-size: 1rem;
 $main-font-weight: normal;
+
 $main-line-height: 1.42;
 
-$main-color: #000;
-$light-color: #ffffff;
-$accent-color: #42b983;
+
+
 $muted-color: #999;
 
 $link-color: #2c3e50;
@@ -23,7 +38,7 @@ $success-background: #32d296;
 $warning-background: #faa05a;
 $danger-background: #f0506e;
 
-$border-width: 1px;
+
 $border-color: #e5e5e5;
 
 $control-height: 50px;
