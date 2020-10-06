@@ -1,0 +1,36 @@
+@import '../../../styles/variables';
+
+.experience-layout {
+  .experience-list {
+    .list-item {
+      display: flex;
+      align-items: flex-start;
+
+      @media screen and (max-width: 576px) {
+        flex-direction: column;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 40px;
+      }
+
+      .duration {
+        min-width: 250px;
+        padding-left: 20px;
+        border-left: 6px solid $accent-color;
+
+        @media screen and (max-width: 576px) {
+          margin-bottom: 20px;
+        }
+
+        .to {
+          margin: 0;
+        }
+      }
+
+      .description {
+          padding-left: 26px;
+      }
+    }
+  }
+}

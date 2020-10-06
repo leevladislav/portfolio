@@ -15,15 +15,15 @@ const routes: Routes = [
       },
       {
         path: 'home',
-        loadChildren: () => import('./home/home.module').then(m => m.HomeModule),
+        loadChildren: () => import('./home-page/home-page.module').then(m => m.HomePageModule),
       },
       {
         path: 'about',
-        loadChildren: () => import('./about/about.module').then(m => m.AboutModule),
+        loadChildren: () => import('./about-page/about-page.module').then(m => m.AboutPageModule),
       },
       {
         path: 'projects',
-        loadChildren: () => import('./projects/projects.module').then(m => m.ProjectsModule),
+        loadChildren: () => import('./projects-page/projects-page.module').then(m => m.ProjectsPageModule),
       }
     ]
   }

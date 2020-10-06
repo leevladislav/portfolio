@@ -23,7 +23,7 @@
         max-width: 33.3%;
       }
 
-      @media screen and (max-width: 586px) {
+      @media screen and (max-width: 576px) {
         max-width: 50%;
       }
 
@@ -41,5 +41,9 @@
         margin-top: auto;
       }
     }
+  }
+
+  .show-all {
+    text-align: center;
   }
 }

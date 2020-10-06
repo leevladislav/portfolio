@@ -38,6 +38,7 @@ input[type="submit"],
   text-decoration: none;
   background: $button-background;
   color: $button-color;
+  min-width: 200px;
 }
 
 .button:not(:disabled) {

@@ -1,0 +1,16 @@
+[
+  {
+    "from": "October 2018",
+    "to": "now",
+    "position": "Frontend Developer",
+    "company": "BeKey Solutions, Kharkov",
+    "duties": "Creating SPA, PWA with Angular2+ and MPA with Vanila.js. Fixing bugs, supporting corporate website, working on perfomance and speed optimizations, refactoring code, developing the big application for Digital Helthcare and providing data visualization to outdated information resourses using built-in Web Components."
+  },
+  {
+    "from": "January 2018",
+    "to": "October 2018",
+    "position": "HTML / CSS coder",
+    "company": "Aweb Systems, Kharkov",
+    "duties": "Creating Landing pages and multipage aplications with HTML, CSS and JS (jQuery). Fixing bugs, adding new functionality, implementing SEO tasks, refactoring code and solving issues with CMS Wordpress."
+  }
+]

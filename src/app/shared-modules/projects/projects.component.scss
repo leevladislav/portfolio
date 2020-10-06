@@ -1,4 +1,4 @@
-@import '../../styles/variables';
+@import '../../../styles/variables';
 
 .projects-layout {
   display: flex;
@@ -47,6 +47,7 @@
       top: 0;
       z-index: 1;
       padding: 1rem;
+      text-align: center;
       opacity: 0;
       background-color: rgba(0, 0, 0, 0.6);
       transition: 0.5s;

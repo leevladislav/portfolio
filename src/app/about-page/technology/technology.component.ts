@@ -7,12 +7,21 @@ import TechnologiesJson from '../../../assets/data/technologies.json';
   styleUrls: ['./technology.component.scss']
 })
 export class TechnologyComponent implements OnInit {
-  technologies: { title: string, iconName: string, isHorizontal?: boolean }[];
+  technologies: {
+    title: string,
+    iconName: string,
+    isHorizontal?: boolean
+  }[];
+  showTechnologiesCount = 12;
 
   constructor() {
   }
 
   ngOnInit() {
     this.technologies = [...TechnologiesJson];
+  }
+
+  showAllTechnologies() {
+    this.showTechnologiesCount = this.technologies.length;
   }
 }
