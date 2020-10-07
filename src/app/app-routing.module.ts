@@ -26,7 +26,8 @@ const routes: Routes = [
         loadChildren: () => import('./projects-page/projects-page.module').then(m => m.ProjectsPageModule),
       }
     ]
-  }
+  },
+  {path: '**', redirectTo: '/home'}
 ];
 
 @NgModule({

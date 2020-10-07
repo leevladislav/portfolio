@@ -15,7 +15,7 @@
       }
 
       .duration {
-        min-width: 250px;
+        min-width: 300px;
         padding-left: 20px;
         border-left: 6px solid $accent-color;
 
@@ -30,6 +30,13 @@
 
       .description {
         padding-left: 26px;
+
+        .company-info {
+          span {
+            color: $accent-color;
+            font-weight: $bold-font-weight;
+          }
+        }
       }
     }
   }

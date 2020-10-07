@@ -2,6 +2,7 @@ export interface Experience {
   from: string;
   to: string;
   position: string;
-  company: string;
+  companyName: string;
+  companyLocation: string;
   duties: string;
 }
