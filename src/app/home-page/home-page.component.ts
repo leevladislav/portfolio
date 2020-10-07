@@ -11,5 +11,6 @@ export class HomePageComponent implements OnInit {
   }
 
   ngOnInit() {
+    window.scrollTo(0, 0);
   }
 }

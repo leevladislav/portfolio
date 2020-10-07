@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Bodes Studio",
+    "subtitle": "Apartment design project remotely",
+    "image": "bodesstudio.jpeg",
+    "tools": [
+      "Wordpress",
+      "Own Theme + Multilingual",
+      "HTML5, CSS (SCSS)",
+      "JS (JQuery)",
+      "Gulp 4"
+    ],
+    "link": "https://bodesstudio.com"
+  },
+  {
+    "title": "CRM For Small Business",
+    "subtitle": "Manage your business on this app",
+    "image": "admin-groove-avenue.jpg",
+    "tools": [
+      "Angular 8, Typescript",
+      "RxJS, Moment.js",
+      "Node.js (Express)",
+      "MongoDB (Mongoose)",
+      "HTML5, CSS (SCSS)",
+      "Webpack 4"
+    ],
+    "link": "http://admin.groove-avenue.com"
+  },
+  {
+    "title": "Kate Stanford",
+    "subtitle": "The small project to improve my skills",
+    "image": "kate-stanford.jpeg",
+    "tools": [
+      "HTML5, CSS (SCSS)",
+      "JS (JQuery)",
+      "Bootstrap 4"
+    ],
+    "link": "assets/projects/kate-stanford/index.html"
+  }
+]

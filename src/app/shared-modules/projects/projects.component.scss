@@ -89,3 +89,11 @@
     }
   }
 }
+
+.projects-layout.projects-excerpt {
+  .item-project {
+    @media screen and (max-width: 1024px) {
+      width: calc(100% - 20px);
+    }
+  }
+}

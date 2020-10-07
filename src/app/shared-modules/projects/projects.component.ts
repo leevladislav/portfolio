@@ -9,6 +9,7 @@ import {Project} from '../../shared/interfaces/project';
 export class ProjectsComponent implements OnInit {
   @Input() projects: Project[];
   @Input() isProjectsExcerpt = false;
+  @Input() pageTitle = 'Projects';
 
   constructor() {
   }

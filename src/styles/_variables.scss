@@ -11,24 +11,27 @@ $border-width: 2px;
 $link-color: #2c3e50;
 $link-hover-color: #42b983;
 
-
-
-
 $main-font-family: 'PT Mono', monospace;
 $main-font-size: 1rem;
 $main-font-weight: normal;
+$main-line-height: 1.6;
 
-$main-line-height: 1.42;
+$main-background: #fff;
+
+$control-height: 50px;
+
+
+
+
+
+
+
 
 
 
 $muted-color: #999;
-
-
-
 $inverse-color: #fff;
 
-$main-background: #fff;
 
 $muted-background: #f8f8f8;
 $primary-background: #42b983;
@@ -38,7 +41,4 @@ $success-background: #32d296;
 $warning-background: #faa05a;
 $danger-background: #f0506e;
 
-
 $border-color: #e5e5e5;
-
-$control-height: 50px;

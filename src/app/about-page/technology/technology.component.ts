@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import TechnologiesJson from '../../../assets/data/technologies.json';
+import {Technology} from '../../shared/interfaces/technology';
 
 @Component({
   selector: 'app-technology',
@@ -7,11 +8,7 @@ import TechnologiesJson from '../../../assets/data/technologies.json';
   styleUrls: ['./technology.component.scss']
 })
 export class TechnologyComponent implements OnInit {
-  technologies: {
-    title: string,
-    iconName: string,
-    isHorizontal?: boolean
-  }[];
+  technologies: Technology[];
   showTechnologiesCount = 12;
 
   constructor() {

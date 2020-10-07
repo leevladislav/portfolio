@@ -4,20 +4,21 @@ import {HomePageComponent} from './home-page.component';
 import {HomePageRoutingModule} from './home-page.routing.module';
 import {SharedModule} from '../shared/shared.module';
 import {HeroComponent} from './hero/hero.component';
+import {LastProjectsComponent} from './last-projects/last-projects.component';
+import {ProjectsModule} from '../shared-modules/projects/projects.module';
 
 
 @NgModule({
   declarations: [
     HomePageComponent,
-    HeroComponent
+    HeroComponent,
+    LastProjectsComponent
   ],
   imports: [
     CommonModule,
     SharedModule,
-    HomePageRoutingModule
-  ],
-  exports: [
-    HomePageComponent
+    HomePageRoutingModule,
+    ProjectsModule
   ]
 })
 export class HomePageModule {

@@ -1,9 +1,9 @@
 <section class="site-container">
   <div class="site-title">
-    <h2 class="title">Projects</h2>
+    <h2 class="title">{{pageTitle}}</h2>
   </div>
 
-  <div class="projects-layout">
+  <div class="projects-layout" [class.projects-excerpt]="isProjectsExcerpt">
     <a *ngFor="let project of projects"
        class="layout-item item-project"
        target="_blank" href="{{project.link}}">

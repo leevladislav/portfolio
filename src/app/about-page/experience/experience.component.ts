@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import ExperienceJson from '../../../assets/data/experience.json';
+import {Experience} from '../../shared/interfaces/experience';
 
 @Component({
   selector: 'app-experience',
@@ -7,13 +8,7 @@ import ExperienceJson from '../../../assets/data/experience.json';
   styleUrls: ['./experience.component.scss']
 })
 export class ExperienceComponent implements OnInit {
-  experience: {
-    from: string,
-    to: string,
-    position: string,
-    company: string,
-    duties: string
-  }[];
+  experience: Experience[];
 
   constructor() {
   }

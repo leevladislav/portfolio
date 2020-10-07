@@ -12,5 +12,4 @@ export class SiteLayoutComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }
