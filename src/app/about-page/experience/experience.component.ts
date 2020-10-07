@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import ExperienceJson from '../../../assets/data/experience.json';
-import {Experience} from '../../shared/interfaces/experience';
+import {ExperienceInterface} from '../../shared/interfaces/experience.interface';
 
 @Component({
   selector: 'app-experience',
@@ -8,7 +8,7 @@ import {Experience} from '../../shared/interfaces/experience';
   styleUrls: ['./experience.component.scss']
 })
 export class ExperienceComponent implements OnInit {
-  experience: Experience[];
+  experience: ExperienceInterface[];
 
   constructor() {
   }

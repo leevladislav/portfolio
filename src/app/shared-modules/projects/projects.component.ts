@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Project} from '../../shared/interfaces/project';
+import {ProjectInterface} from '../../shared/interfaces/project.interface';
 
 @Component({
   selector: 'app-projects',
@@ -7,7 +7,7 @@ import {Project} from '../../shared/interfaces/project';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
-  @Input() projects: Project[];
+  @Input() projects: ProjectInterface[];
   @Input() isProjectsExcerpt = false;
   @Input() pageTitle = 'Projects';
 

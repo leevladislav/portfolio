@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {Project} from '../../shared/interfaces/project';
+import {ProjectInterface} from '../../shared/interfaces/project.interface';
 import ProjectsExcerptJson from '../../../assets/data/projects-excerpt.json';
 
 @Component({
@@ -8,7 +8,7 @@ import ProjectsExcerptJson from '../../../assets/data/projects-excerpt.json';
   styleUrls: ['./last-projects.component.scss']
 })
 export class LastProjectsComponent implements OnInit {
-  projectsExcerpt: Project[];
+  projectsExcerpt: ProjectInterface[];
 
   constructor() {
   }

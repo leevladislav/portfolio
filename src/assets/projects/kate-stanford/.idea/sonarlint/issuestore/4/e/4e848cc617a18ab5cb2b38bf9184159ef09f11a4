@@ -1,0 +1,16 @@
+
+7javascript:S1116"Unnecessary semicolon.(´ş¥Èÿÿÿÿÿ
+Kjavascript:S1117$"/'Slick' is already declared in the upper scope.(Ûõ‡
+Ljavascript:S1117í"/'index' is already declared in the upper scope.(¤º©æ
+Hjavascript:S1117£
+"+'i' is already declared in the upper scope.(ùÌº
+Mjavascript:S1117¶
+"+'i' is already declared in the upper scope.(ë†ş§ùÿÿÿÿ
+kjavascript:S1871Í"NThis branch's code block is the same as the block for the branch on line 2497.(ş±°Ä
+jjavascript:S1871®"NThis branch's code block is the same as the block for the branch on line 2732.(•¾ò/
+Xjavascript:S1481Ò";Remove the declaration of the unused 'edgeWasHit' variable.(õçÛö
+Wjavascript:S1854ì":Remove this useless assignment to variable "centerOffset".(‹ü«‚
+pjavascript:S1871ÿ"NThis branch's code block is the same as the block for the branch on line 2938.(ıÛ‚Öûÿÿÿÿ
+mjavascript:S2259È"PTypeError can be thrown as "responsiveSettings" might be null or undefined here.(½™ŸÌ
+gjavascript:S2259İ"ETypeError can be thrown as "touches" might be null or undefined here.(Ó´§¤øÿÿÿÿ
+ljavascript:S3403Ö"JRemove this "!==" check; it will always be true. Did you mean to use "!="?(ÆÊüÿÿÿÿ

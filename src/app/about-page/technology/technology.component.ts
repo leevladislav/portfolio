@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import TechnologiesJson from '../../../assets/data/technologies.json';
-import {Technology} from '../../shared/interfaces/technology';
+import {TechnologyInterface} from '../../shared/interfaces/technology.interface';
 
 @Component({
   selector: 'app-technology',
@@ -8,7 +8,7 @@ import {Technology} from '../../shared/interfaces/technology';
   styleUrls: ['./technology.component.scss']
 })
 export class TechnologyComponent implements OnInit {
-  technologies: Technology[];
+  technologies: TechnologyInterface[];
   showTechnologiesCount = 12;
 
   constructor() {

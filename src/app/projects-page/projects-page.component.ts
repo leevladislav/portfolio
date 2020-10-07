@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import ProjectsAllJson from '../../assets/data/projects-all.json';
-import {Project} from '../shared/interfaces/project';
+import {ProjectInterface} from '../shared/interfaces/project.interface';
 
 @Component({
   selector: 'app-projects-page',
@@ -8,7 +8,7 @@ import {Project} from '../shared/interfaces/project';
   styleUrls: ['./projects-page.component.scss']
 })
 export class ProjectsPageComponent implements OnInit {
-  projectsAll: Project[];
+  projectsAll: ProjectInterface[];
 
   constructor() {
   }
